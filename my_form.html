@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My form Building Practice</title>
+        <meta charset="utf-8" lang="en-US">
+    </head>
+    <body>
+        <h1>This is my practice form</h1>
+        <form action="/form-hadnling-url" method="post">
+            <fieldset>
+                <legend>Add user</legend>
+                <div>
+                    <label for="firstname">First name</label>
+                    <input type="text" id="firstname" name="fistname">
+                </div>
+                <div>
+                    <label for="lastname">Last name</label>
+                    <input type="text" id="lastname" name="lastname">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type ="email" id = "email" name = "email-address">
+                </div>
+                <div>
+                    <label for="Status">Status</label>
+                    <select id="status" name="status">
+                        <option value="Student">Student</option>
+                        <option value="Instructor">Instructor</option>
+                        <option value="guest">Guest</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Choose your favourite programming language;</p>
+                    <input type="radio" id="HTML" name="language">
+                    <label for="HTML">HMTL</label><br>
+                    <input type="radio" id="css" name="language">
+                    <label for="css">CSS</label><br>
+                    <input type="radio" id="Javascript" name="language">
+                    <label for="HTML">Javascript</label><br>
+                </div>
+                <div>
+                    <label for ="comments">Comments</label>
+                    <textarea id="comments" name ="comments"></textarea>
+                </div>
+                <div>
+                    <label for="date">Current Date</label>
+                    <input type="date" id="date" name="date">
+                </div>    
+                <div>
+                    <input type="checkbox" id="newsletter" name ="newsletter">
+                    <label for="newsletter">Sign up for Newsletter</label><br>
+                    <input type="checkbox" id="Terms" name ="Terms">
+                    <label for="Terms">agree to terms and Conditions</label>
+                </div>       
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
